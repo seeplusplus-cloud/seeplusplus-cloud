@@ -1,5 +1,6 @@
 #!/bin/bash
-echo -e "enter file path to run"
+#SCRIPT FOR RUNNING C++ CODE IN BASH
+echo -e "enter file path to run : "
 read src
 clear
 g++ $src
